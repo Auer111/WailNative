@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your Firebase config (replace with your own)
 const firebaseConfig = {
-  apiKey: "AIzaSyAachtPDR51h4wiSlCSi8mWAwZbrHFezuY",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "wail-6a233.firebaseapp.com",
   projectId: "wail-6a233",
   storageBucket: "wail-6a233.firebasestorage.app",

@@ -5,7 +5,7 @@ import { auth } from "../firebaseConfig.js";
 import * as WebBrowser from "expo-web-browser";
 import * as React from "react";
 
-import { View, Image, TouchableOpacity, StyleSheet } from "react-native";
+import { View, Image } from "react-native";
 import { Button, Text } from "react-native-paper";
 
 WebBrowser.maybeCompleteAuthSession();
